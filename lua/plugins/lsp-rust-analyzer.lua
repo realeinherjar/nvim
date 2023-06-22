@@ -6,6 +6,7 @@ return {
     ---@type lspconfig.options
     servers = {
       rust_analyzer = {
+        mason = false,
         settings = {
           ["rust-analyzer"] = {
             procMacro = { enable = true },
